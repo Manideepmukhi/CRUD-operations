@@ -47,7 +47,7 @@ public class HomeController {
 			studentRepository.delete(student);
 			
 		}
-		return "Deleted";
+		return "Deleted 1 Row";
 	}
 	
 	@PutMapping("/updateData")
